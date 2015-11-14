@@ -7,5 +7,23 @@ Electron-map-app
 
 
 ```bash
-$ cd 
+$ cd Electron-map-app
+```
+
+
+```bash
+$ bower install
+```
+
+```bash
+$ npm install
+```
+
+
+```bash
+$ npm start
+```
+
+```bash
+$ npm install {to build }
 ```
