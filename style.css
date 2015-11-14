@@ -1,0 +1,86 @@
+#map {
+    height: 100%;
+}
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background: #3A4141;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    z-index: 9999999;
+}
+/*Window Controls*/
+
+header>ul {
+    float: right;
+    text-align: right;
+    line-height: 0;
+    padding-left: 6px;
+}
+header>ul>li,
+header>ul>li>a {
+    display: inline-block;
+}
+header>ul {
+    margin-top: -0px;
+    float: right;
+}
+header>ul>li>a {
+    width: 22px;
+    height: 22px;
+    margin: 6px 6px 6px 0;
+    background-image: url('./icons.svg');
+    background-repeat: no-repeat;
+    -webkit-transition: -webkit-transform 200ms;
+    -webkit-app-region: no-drag;
+}
+header>ul>li>a:hover,
+header>ul>li>a:focus {
+    -webkit-transform: scale(1.22, 1.22);
+    outline: none;
+}
+a#close-btn {
+    background-position: -44px 0;
+}
+a#max-btn {
+    background-position: -22px 0;
+}
+a#min-btn {
+    background-position: 0 0;
+}
+#box_a {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+    background: #79C185;
+}
+#box_b {
+    position: absolute;
+    top: 34px;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background: #2D3434;
+}
+.fabToolbardemoBasicUsage md-fab-toolbar.md-right md-fab-trigger.align-with-text {
+    left: 7px;
+}
+md-toolbar.md-default-theme {
+    background-color: #2D3434;
+    color: rgba(255, 255, 255, 0.87);
+}
+.bottomFooter {
+    width: 100%;
+    height: 80px;
+    background-color: #3A4141;
+    position: fixed;
+    bottom: 0;
+}
